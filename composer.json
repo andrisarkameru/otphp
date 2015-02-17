@@ -21,13 +21,11 @@
     "suggest": {
     },
     "autoload": {
-        "psr-4": { "OTPHP\\": "lib/" },
+        //"psr-4": { "OTPHP\\": "lib/" },
         "psr-0": {"OTPHP": "lib/"}
     },
     "autoload-dev": {
-        "psr-4": {
-            "MyProject\\": "examples/"
-        },
+        //"psr-4": {"MyProject\\": "examples/"},
         "psr-0": {"OTPHP": "lib/"}
     },
     "extra": {
